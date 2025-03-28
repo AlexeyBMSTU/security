@@ -1,9 +1,9 @@
 {
   "name": "dz1",
   "version": "1.0.0",
-  "main": "proxy.js",
+  "main": "src/proxy.js",
   "scripts": {
-    "start": "node proxy.js",
+    "start": "node src/proxy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -11,6 +11,7 @@
     "express": "^4.17.1",
     "http-proxy": "^1.18.1"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
